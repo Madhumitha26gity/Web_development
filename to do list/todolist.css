@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  font-size: larger;
+  font-family: 'Nunito',sans-serif;
+}
+
+@media only screen and (max-width:480px)
+{
+  *{
+    width: 100%;
+  }
+.header{
+  width:100%;
+}
+.myul{
+  width:100%;
+}
+.responsive{
+  width: 100%;
+}
+
+} 
+ body{
+  background-color: antiquewhite;
+ }
+
+ h2{
+  color: #adff2f;
+  font-family:'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 36px;
+ }
+
+ .responsive{
+  width: 100px;
+  height: 100px;
+  height: auto;
+  float:right;
+  padding-top: 0%;
+  position: relative;
+  vertical-align:text-top;
+  clear: both;
+  margin-bottom: 10px;
+ }
+
+hr{
+  
+  stroke-width: 10px;
+  color: #fcff2e;
+  border-style: solid;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: #210138;
+  border-width: 2px;
+  font-family: Comic Sans MS;
+  
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eeeeee;
+  font-size: 18px;
+  transition: 0.2s;
+  border-style: solid;
+  border-color: #210138;
+  border-width: 2px;
+  font-family: Comic Sans MS;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background: #dddddd;
+}
+
+ul li.checked {
+  background: #888888;
+  color: #ffffff;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  position: absolute;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  height: 15px;
+  width: 7px;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 11px 15px 12px 15px;
+
+}
+
+.close:hover {
+  background-color: #f52d1f;
+  color: white;
+}
+
+
+.header {
+  background-color: #4b0082;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.addBtn{
+  padding: 10px;
+  width: 25%;
+  background: #5e3287;
+  color: #fffafa;
+  float: left;
+  text-align: center;
+  font-family: Lucida Sans Unicode;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: large;
+  transition: 0.3s;
+  text-align: center;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #380126;
+  box-shadow: #393939;
+}
+
+.addBtn:hover {
+  background-color: #df1e6f;
+  box-shadow: #222222;
+  cursor: pointer;
+}
