@@ -1,0 +1,27 @@
+body{
+  background-color: rgb(214, 210, 233);
+  font-family: 'Inter', sans-serif;
+}
+h1{
+  background-origin: padding-box;
+  background-color: rgb(38, 41, 41);
+  color: white;
+  border-radius: 16px  ;
+  margin-top: 4;
+  margin-bottom: 4;
+
+}
+h3,h4{
+  color: #31312d;
+  text-align: left;
+  margin-top:2;
+  margin-bottom: 2;
+}
+#resumePreview{
+  background-color: antiquewhite;
+}
+
+hr{
+  border-width: 2px;
+  border-color: rgb(35, 35, 35);
+}

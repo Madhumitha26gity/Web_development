@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/resume.css" />
+
+    <title>Resume Builder</title>
+</head>
+<body>
+ 
+
+    <div class="container">
+    <h1 class="text-center my-4">PERFECT RESUME BUILDER</h1>
+  
+        
+    <div class="row mt-5">
+
+        <div class="col-md-6">
+            <h3><u>Personal Information</u></h3><br>
+            <div class="form-group">
+                <label for="nameField">Your Name</label>
+                <input type="text" id="nameField" placeholder="Enter Your Name" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <label for="contactField">Your Contact Number</label>
+                <input type="number" id="contactField" placeholder="Enter Your Contact No" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <label for="mailField">Your Email</label>
+                <input type="mail" id="mailField" placeholder="Enter Your Email" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <label for="addressField">Your Address</label>
+                <textarea id="addressField" placeholder="Enter Your Address" class="form-control" rows="3"></textarea>
+            </div>
+            
+            <hr>
+
+            <h3><u>Educational Information</u></h3>
+            
+            <div class="form-group mt-4">
+                <label for="">Qualification</label>
+                <input placeholder="Enter Your Qualification" class="form-control" rows="5" id="qualField">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="">Passing year</label>
+                <input type="number" placeholder="Enter Your Passing Year" class="form-control" rows="5" id="yearField">
+            </div>
+
+            <div class="form-group mt-4" id="ac">
+                <label for="">Accomplishments</label>
+                <input type="text" placeholder="Add Your Accomplishments" class="form-control acField" rows="5" id="awardField">
+            </div>
+            <hr>
+
+        </div>
+      
+
+        <div class="col-md-6">
+            <h3><u>Important Links</u></h3>
+            <div class="form-group mt-2">
+                <label for="gitField">GitHub Link</label>
+                <input type="link" id="gitField" placeholder="Enter Your GitHub Link" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <label for="linkedINField">LinkedIn Profile Link</label>
+                <input type="link" id="linkedINField" placeholder="Enter Your linkedIN link" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <label for="webField">Website Link</label>
+                <input type="link" id="webField" placeholder="Enter Your Website link" class="form-control">
+            </div>
+            
+           
+            <hr>
+            
+            <div class="form-group mt-4">
+                <h3><u>Professional Information</u></h3>
+                <label for="">Objective</label>
+                <textarea placeholder="Enter Your Objective" class="form-control" rows="4" id="objField"></textarea>
+            </div>
+
+                <div class="form-group mt-4" id="we">
+                    <label for="">Work Experience</label>
+                    <input type="text" placeholder="Enter Your Work Experience" class="form-control weField" rows="5" id="workField">
+                </div>
+    
+                <div class="form-group mt-4" id="ac">
+                    <label for="">Skills</label>
+                    <textarea placeholder="Add Your Skills" class="form-control acField" rows="5" id="skillField"></textarea>
+                </div>
+                
+    <hr>
+            
+            </div>
+          
+        
+    </div>
+
+      
+
+    <div class="container text-center">
+    <button onclick="generate()" class="btn btn-dark btn-lg my-4">
+        Generate Resume</button>
+    </div>
+    </div>
+
+    <div id="resumePreview" target="_blank"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/resume.js"></script>
+</body>
+</html>

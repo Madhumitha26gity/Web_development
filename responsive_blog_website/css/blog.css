@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background-image: url("https://cdn.shopify.com/s/files/1/1556/2685/articles/viridi-green-i-uBAOo_BBA-unsplash.jpg?v=1650641528");
+  }
+  
+  .header {
+    background-image: linear-gradient(135deg, #fa709a 10%, #fee140 100%);
+    padding: 30px;
+    text-align: center;
+  }
+  
+ 
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+ 
+  .fakeimg{
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  .faktext{
+    color: #2a2626;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+
+  .blog{
+    text-align: left;
+    font-size: larger;
+  }
+
+    .blog:hover{
+    cursor: pointer;
+  }
+  .card {
+     padding: 20px;
+     margin-top: 20px;
+     background-image: linear-gradient(135deg, #F0FF00 10%, #58CFFB 100%);
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    background-image: linear-gradient(135deg, #fa709a 10%, #fee140 100%);
+    margin-top: 15px;
+    
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+     } 
+    }
+
+ p{
+    text-align: justify;
+    font-size: large;
+ }
+ .contact{
+    display: block;
+
+ }
+ .social
+ {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    cursor: pointer;
+ }
+.soc{
+  cursor: pointer;
+}

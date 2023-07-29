@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/temperature_convertor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="icon" href="img/thermometer.png">
+    <title>Temperature Convertor</title>
+</head>
+<body>
+    <div class="center">
+        <h1>TEMPERATURE CONVERTOR</h1><br><br>
+        
+        <form>
+                   
+            
+            <div class="txt-field">
+        <br>
+        <input type="number" placeholder="Enter the temperature" required="required" id="temp">
+        <br><br>
+        <hr class="line">
+        <br>
+        <select id="dropdown">
+          
+            <option value="select">-Select-</a>
+            <option value="Celcius"  id="celsius">Celcius</a>
+            <option value="Fahrenheit" id="fahrenheit">Fahrenheit</a>
+       
+        </select>
+    
+    </div><br><br><br><br>
+    
+        <button id="Convert" onclick="convertTemperature()">Convert</button>
+        <br>
+         
+        
+        </form>
+
+        
+    </div>  
+    <script type="text/javascript" src="js/temperature_convertor.js"></script>
+</body>
+</html>
