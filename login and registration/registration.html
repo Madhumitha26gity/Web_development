@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="registration.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+    </head>
+   
+    <body>
+      <div class="center">
+
+          <h1>REGISTRATION FORM</h1>
+
+
+<form method="post">
+
+            <div class="txt-field">
+                <span></span>
+            <label>Name:</label><br>
+            <input type="name" placeholder="Name" required>
+            </div><br>
+
+            <div class="txt-field">
+                <span></span>
+            <label>Date of Birth:</label><br>
+            <input type="date" required>
+            </div><br>
+
+            <div class="txt-field">
+                <span></span>
+            <label>Qualification:</label>
+<select id="qualification" name="qualification">
+<option value="select">SELECT</option>
+<option value="10th">10th</option>
+<option value="12th">12th</option>
+<option value="B.Sc">B.Sc</option>
+<option value="B.Com">B.Com</option>
+<option value="B.A">B.A</option>
+<option value="BBA">BBA</option>
+<option value="BCA">BCA</option>
+<option value="B.E">B.E</option>
+<option value="B.Tech">B.Tech</option>
+<option value="B.Arch">B.Arch</option>
+<option value="M.Sc">M.Sc</option>
+<option value="M.Com">M.Com</option>
+<option value="M.A">M.A</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="M.E">M.E</option>
+<option value="M.Tech">M.Tech</option>
+<option value="M.Arch">M.Arch</option>
+</select><br> 
+            
+            </div><br>
+
+         
+            <label>Gender:</label><br>
+       <div class="radio_btn">
+            <input type="radio" id="male" name="gender" required="required"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender" required="required"><label for="female">Female</label>
+        </div>
+<br>
+        <br>
+
+        <div class="txt-field">
+            <span></span>
+             <label>Phone no:</label><br>
+             <input type="phone" placeholder="1234567890" required="required">
+     </div><br>
+
+            <div class="txt-field">
+                   <span></span>
+                    <label>E-mail:</label><br>
+                    <input type="email" placeholder="abc@gmail.com" required="required">
+            </div><br>
+
+        <div class="txt-field">
+            <span></span>
+                <label>New Password:</label><br>
+        <input type="password" placeholder="New Password" required="required">
+        <br><br>
+        <label>Confirm Password:</label><br>
+        <input type="password" placeholder="Confirm Password" required="required">
+       
+            </div><br>
+
+    <input type="submit" value="Register"><br>
+    <div class="signin_link">
+        Already a Member? <a href="login.html">Sign In</a>
+    </div>
+
+          </form>
+      </div>  
+      <br>
+    </body>
+</html>
