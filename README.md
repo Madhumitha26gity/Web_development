@@ -1,2 +1,2 @@
 # Web_development
-Here I have created some web development projects which I have learnt from YouTube and other sources.
+Here I have created some front-end web development projects which I have learnt from YouTube and other sources.
