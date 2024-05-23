@@ -1,0 +1,137 @@
+.navbar {
+    background-color: #baafff;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #010148;
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    margin-right: 0;
+  }
+  
+  .navbar-brand{
+    color: #010148;
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  h1{
+    color: #010148;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .navbar-toggler{
+    border: none;
+  }
+
+ .about{
+  text-align: justify;
+ }
+  
+  @media screen and (min-width: 768px) {
+    .navbar-brand {
+      margin-right: 0;
+      padding: 0 1.5rem;
+    }
+    .order{
+        width: 50%;
+    }
+    .contact {
+      max-width: 50%;
+    }
+    .card-title{
+      text-align: center;
+    }
+    .card{
+      width: 400px;
+    }
+    .card-img-top{
+      align-self: center;
+      height: auto;
+      width: 100%;
+      padding: 10px ;
+    }
+
+    .navbar-toggler{
+      border: none;
+    }
+
+    .navbar-toggler:active{
+      border: none;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 0.5rem 2rem;
+
+    }
+    .container {
+      width: 80%;
+    }
+
+    .card{
+      width: 400px;
+    }
+    .card-img-top{
+      align-self: center;
+      height: auto;
+      width: 100%;
+      padding: 10px ;
+    }
+  
+  }
+
+  .card{
+    width: 70%;
+    justify-content: center;
+    margin:auto;
+  }
+
+  #gal{
+    width: 70%;
+    justify-content: center;
+    margin:auto;
+    border: none;
+  }
+
+  #gal:hover{
+    width: 70%;
+    justify-content: center;
+    margin:auto;
+    cursor: pointer;
+    box-shadow:10px 10px #a9a9a995;
+    border-radius: 0;
+  }
+
+  #gal:active{
+    width: 70%;
+    justify-content: center;
+    margin:auto;
+    cursor: pointer;
+  }
+
+  .card-img-top{
+    align-self: center;
+    padding: 10px ;
+  }
+
+  #order, #subscribe, #about{
+    background-color: blueviolet;
+    color: azure;
+    border: none;
+  }
+
+  #order:hover, #subscribe:hover,#about:hover{
+    background-color: rgb(80, 0, 102);
+  }
+
+  #cont{
+    border: none;
+    justify-content: center;
+  }
+  
