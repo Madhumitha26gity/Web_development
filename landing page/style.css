@@ -64,6 +64,16 @@
     .navbar-toggler:active{
       border: none;
     }
+
+    #subscribe{
+      border: none;
+      margin-right: 0;
+      padding: 10px 10px 10px 10px;
+      margin-right: 70px;
+      width:25%;
+      float: right;
+    }
+
   }
   @media screen and (min-width: 1200px) {
     .navbar .navbar-nav .nav-link {
@@ -83,7 +93,15 @@
       width: 100%;
       padding: 10px ;
     }
-  
+
+    #subscribe{
+      border: none;
+      margin-right: 0;
+      padding: 10px 10px 10px 10px;
+      margin-right: 70px;
+      width:25%;
+      float: right;
+    }
   }
 
   .card{
@@ -121,7 +139,7 @@
   }
 
   #order, #subscribe, #about{
-    background-color: blueviolet;
+    background-color: #8a2be2;
     color: azure;
     border: none;
   }
@@ -133,5 +151,30 @@
   #cont{
     border: none;
     justify-content: center;
+    padding-top: 5px;
   }
   
+.input-group{
+  justify-content: space-evenly;
+}
+
+#subscribe{
+  border: none;
+  margin-right: 0;
+  padding: 10px 10px 10px 10px;
+  margin-right: 70px;
+  width:25%;
+  float: right;
+}
+
+
+@media screen and (max-width: 480px){
+  #subscribe{
+    border: none;
+    margin-right: 0;
+    padding: 10px 10px 10px 10px;
+    margin-right: 50px;
+    width:50%;
+    justify-content: center;
+  }
+}
