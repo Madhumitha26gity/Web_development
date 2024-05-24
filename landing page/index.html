@@ -203,11 +203,20 @@
       <p>Send email for your further feedback and queries</p>
   </div>
 
-<div class="input-group input-group-lg mx-auto my-5 w-75">
-  <input type="text" class="form-control rounded-0 shadow-none" placeholder="Email Address" aria-label="Email Address"
+<form>
+<div class="input-group input-group-lg mx-auto my-3 w-75" id="email">
+  <input type="email" class="form-control rounded-0 shadow-none" placeholder="Email Address" aria-label="Email Address"
       aria-describedby="subscribe">
-  <button class="btn rounded-0" type="button" id="subscribe"><i class="bi bi-send-fill" style="color: aliceblue;"></i></button>
 </div>
+<div class="input-group input-group-lg mx-auto my-3 w-75" id="message">
+  <textarea type="text" class="form-control rounded-0 shadow-none" placeholder="Type Your Message Here..." aria-label="Email Address"
+      aria-describedby="subscribe"></textarea>
+</div>
+  <button type="button" id="subscribe" value="send email">
+  <i class="bi bi-send-fill" style="color: aliceblue;"></i>&nbsp; &nbsp; Send</button> 
+</form>
+
+<br><br>
 
 <div id="cont">
   <p><i class="bi bi-telephone-fill"></i>&nbsp;  0452- 2613783 </p>
