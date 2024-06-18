@@ -16,7 +16,7 @@ function back()
     document.getElementById("res").value = x.substring(0, x.length - 1);
 }
 
-function clear()
+function erase()
 {
     document.getElementById("res").value = " ";
 }
