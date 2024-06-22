@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    font-size: x-large;
+
+}
+
+body{
+color: azure;
+background-color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding:25px 20px 25px 20px;
+}
+
+.codeeditor{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    gap:20px;
+}
+
+.codeeditor textarea{
+    width: 450px;
+    height: 450px;
+    border:3px #000 solid;
+    background-color: #353839;
+    color: aliceblue;
+    font-family: monospace;
+   
+    
+}
+
+.btns{
+    display: flex;
+    gap: 10px;
+    margin: 25px 25px 25px 25px;
+    justify-content: center;   
+}
+
+.outputeditor{
+    width: 100%;
+    height: auto;
+    border:3px #000 solid;
+    background-color: azure;
+}
+
+
+#run-btn,#reset-btn{
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+#run-btn{
+background-color: green;
+color: azure;
+}
+
+#reset-btn{
+background-color: red;
+color: azure;
+}
+
+@media (max-width:600px)
+{
+
+    body
+    {
+        color: azure;
+        background-color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding:25px 20px 25px 20px; 
+        justify-content: center;   
+    }
+
+ .codeeditor{
+    flex-direction: column;
+ }
+    
+    .outputeditor{
+        width: 100%;
+        height: auto;
+        border:3px #000 solid;
+        background-color: azure;
+    }
+}
