@@ -1,7 +1,7 @@
 function run(){
     let html =document.querySelector(".codeeditor #html-area").value;
     let css = "<style>"+document.querySelector(".codeeditor #css-area").value +"</style>";
-    let js = document.querySelector(".codeeditor #js-area").value;
+    let js = "<script>"+ document.querySelector(".codeeditor #js-area").value +"</script>";
     let output = document.querySelector(".outputeditor #output-frame");
 
     output.contentDocument.body.innerHTML= html+css;
