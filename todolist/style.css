@@ -13,8 +13,7 @@ h2{
     width:75%;
     height: auto;
     background-color: rgb(255, 196, 108);
-    padding: 10px;
-    justify-content: space-between;
+    padding: 10px; 
 }
 
 #list-container .del{
@@ -32,6 +31,7 @@ h2{
     list-style: none;
     font-size: x-large;
     padding-top: 10px;
+    text-align: left;
 }
 
 #add{
