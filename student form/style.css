@@ -1,0 +1,35 @@
+body{
+    font-size:large;
+}
+
+table,th,td{
+    border:black 2px solid;
+}
+
+button{
+    width:100%;
+    background-color: aqua;
+    border-color: blueviolet;
+    font-size:large;
+    cursor:pointer;
+}
+
+input{
+    font-size:large;
+    border: none;
+}
+
+select{
+    width: 100%;
+    font-size:large;
+    border: none;
+}
+
+#del_btn{
+    width:100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(203, 0, 0);
+    border: none;
+    font-size:large;
+    cursor:pointer;
+}

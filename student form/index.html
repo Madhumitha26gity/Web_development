@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <center>
+  <h1>STUDENT FORM</h1>
+  <table>
+    <form>
+      <tr>
+        <td><label>Name</label></td>
+        <td><input type="text" id="s_name" required></td>
+      </tr>
+      <tr>
+        <td><label>Age</label></td>
+        <td><input type="number" id="s_age" required></td>
+      </tr>
+      <tr>
+        <td><label>Gender</label></td>
+        <td>
+          <input type="radio" name="s_gen" value="Male" required>Male
+          <input type="radio" name="s_gen" value="Female" required>Female
+        </td>
+      </tr>
+      <tr>
+        <td><label>Course</label></td>
+        <td>
+          <select id="s_course">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C++">C++</option>
+            <option value="Python">Python</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Email</label></td>
+        <td><input type="email" id="s_email" required></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button type="button" onclick="save_item()">Save</button>
+        </td>
+      </tr>
+    </form>
+  </table>
+  
+  <br>
+  
+  <table id="student_list">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>Course</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+    <tr>
+      <td>Amala</td>
+      <td>22</td>
+      <td>Male</td>
+      <td>Python</td>
+      <td>amala@gmail.com</td>
+      <td><button id="del_btn" onclick="delete_item(event)">Delete</button></td>
+    </tr>
+  </table>
+</center> 
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
