@@ -6,7 +6,7 @@ var s_table = document.getElementById("student_list");
     var s_age = document.getElementById("s_age");
     var s_course = document.getElementById("s_course");
     var s_email = document.getElementById("s_email");
-    var s_gender = document.querySelector('input[name="s_gen"]:checked');
+    var s_gender = document.querySelector('input[id="s_gen"]:checked');
  
     var row = s_table.insertRow(-1);
   
